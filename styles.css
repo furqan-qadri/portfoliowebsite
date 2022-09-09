@@ -2,6 +2,24 @@ body{
     background-color: rgb(251, 234, 213);
 }
 
+.header-div{
+    display: flex;
+    font-size: 60px;
+    /* margin: auto; */
+    /* border:1px solid blue; */
+    margin-bottom:30px;
+    margin-top:50px;
+}
+
+.header-p{
+    /* margin-left:px; */
+    font-size: 78px;
+    margin: auto;
+    font-family: 'Smooch', cursive;
+}
+
+
+
 img{
     width: 32px;
     margin-left: 85px;
@@ -24,6 +42,7 @@ a{
     border-radius:30px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
 }
 
 .main-div{
@@ -33,7 +52,7 @@ a{
     justify-content: space-around;
     flex-direction: column;
     margin:auto;
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }
 
 #github{
